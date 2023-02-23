@@ -64,7 +64,9 @@ h1, h2 {
     display: flex;
     justify-content: space-around;
     width: 100vw;
-    margin-top: 60px;
+    max-width: 1200px;
+    border: thin red solid;
+    margin: 60px 0;
     flex-wrap: wrap;
 }
 
