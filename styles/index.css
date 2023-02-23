@@ -15,6 +15,7 @@
     /* Variables for custom colors w/ transparencies*/
     --lime: rgba(20,240,10,.9);
     --green: rgba(30,90,30,.9);
+    --black: rgba(0,0,0,.6);
 
 }
 
@@ -26,7 +27,7 @@ body {
    }
 
 #main {
-    height: 100vh;
+    flex-wrap: wrap;
 }
 
 #main, .social__card {
@@ -39,20 +40,24 @@ body {
 
 #hal {
     border: thick solid black;
-    box-shadow: 2px 2px 4px darkolivegreen;
+    box-shadow: 0 10px 25px var(--black);
     margin-bottom: 30px;
+    margin-top: 60px;
 }
 
 h1, h2 {
     text-shadow: 0 0 8px black, 0 0 8px black;
+    margin: 10px;
 }
 
 .social__card {
-    box-shadow: 0 10px 25px rgba(0,0,0,.6);
+    box-shadow: 0 10px 25px var(--black);
     border-radius: 25px;
     background: linear-gradient(var(--green), var(--lime));
     width: 200px;
     height: 300px;
+    margin: 10px;
+    border: thin solid lime;
 }
 
 #social__container {
@@ -60,6 +65,7 @@ h1, h2 {
     justify-content: space-around;
     width: 100vw;
     margin-top: 60px;
+    flex-wrap: wrap;
 }
 
 a{
