@@ -47,7 +47,7 @@ body {
 
 h1, h2 {
     text-shadow: -5px 0 10px black, 0 -5px 10px black, 5px 0 10px black, 0 5px 10px black;
-    margin: 10px;
+    margin-bottom: 20px;
 }
 
 .social__card{
